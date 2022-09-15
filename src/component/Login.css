@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.body{
+    display: grid;
+    place-items: center;
+    background-image: url('https://www.onblastblog.com/wp-content/uploads/2018/05/free-images-for-blogs.jpeg');
+    padding:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    color:  #2f56f5 !important;
+    text-align: center;
+}
+.title > h1{
+    color:#093c91;
+    text-align: center;
+}
+.login
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+    padding-top:20px ;
+    padding-bottom: 10px;
+    margin-bottom: 12%;
+}
+.login h1
+{
+    text-align: left;
+    width: 100%;
+    border-bottom: 4px solid #2f56f5 ;
+    padding: 15px ;  
+    padding-top: 0 !important;
+}
+.box
+{
+    width : 100%;
+    font-size: 20px;
+    padding : 8px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #2f56f5;
+}
+.box input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.btn-submit input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background:none;
+    border: 2px solid#2f56f5;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+div a
+{
+    text-decoration: none;
+    color: #2f56f5;
+    outline: none;
+    padding:2px;
+}
+ul a:hover{
+    background-color: #2f56f5;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-submit :hover{
+    background-color:#2f56f5;
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+}
+select{
+    border: none;
+    outline: none;
+    background: none;
+    width:75%;
+}
+input{
+    width: 75%;
+}
+.footer{
+    background-color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white ;
+    display: grid;
+    place-items: center;
+}
+.icon a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+  }
