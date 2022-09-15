@@ -134,7 +134,7 @@ class Home extends Component {
                                  <TextArea showCount  placeholder='Description' name='description' value={description} onChange={this.changeHandler} required/>
                                  </div>
                                 <div>
-                                    <button type='Submit' name='publish' name='publish' >Publish</button>
+                                    <button type='Submit' name='publish' >Publish</button>
                                 </div> 
                             </form>
                             
